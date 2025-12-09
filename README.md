@@ -4,21 +4,21 @@
 
 Implementação em Python do algoritmo de **Interpolação por Spline Cúbica Natural**.
 
-O objetivo deste projeto é demonstrar a construção matemática da curva suave que conecta um conjunto de pontos, resolvendo manualmente o sistema linear tridiagonal, sem depender de funções "caixa preta" como `scipy.interpolate`.
+O objetivo deste projeto é demonstrar a construção matemática da curva suave que conecta um conjunto de pontos, resolvendo manualmente o sistema linear tridiagonal, sem depender de funções como `scipy.interpolate`.
 
-## 🚀 Funcionalidades
+## Funcionalidades
 
 - **Algoritmo Manual:** Implementação passo a passo do cálculo dos coeficientes (a, b, c, d).
 - **Visualização:** Plotagem dos dados originais vs. curva interpolada usando `matplotlib`.
 - **Eficiência:** Geração vetorizada dos pontos para plotagem.
 
-## 🛠️ Tecnologias
+## Tecnologias
 
-- Python 3.x
+- Python 3.12.12
 - NumPy (Álgebra linear e vetores)
 - Matplotlib (Visualização)
 
-## 📦 Como rodar
+## Como rodar
 
 1. Clone o repositório:
    ```bash
